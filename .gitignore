@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Guía PDF escaneada (no se sube al repositorio)
+ilide_info_*.pdf
+*.pdf:Zone.Identifier

@@ -5,6 +5,7 @@ const RECENT_KEY = 'ipn-practica-recent';
 
 const OFFICIAL = {
   matematicas: 37,
+  'matematicas-experimental': 37,
   escrita: 20,
   lectora: 20,
   ingles: 10,

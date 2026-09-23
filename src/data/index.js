@@ -1,4 +1,5 @@
 import { matematicas } from './matematicas.js';
+import { matematicasExperimental } from './matematicasExperimental.js';
 import { competenciaEscrita } from './competenciaEscrita.js';
 import { competenciaLectora } from './competenciaLectora.js';
 import { readingComprehension } from './readingComprehension.js';
@@ -9,6 +10,13 @@ import { biologia } from './biologia.js';
 
 export const SUBJECTS = [
   { key: 'matematicas', name: 'Matemáticas', icon: '➗', count: matematicas.length, questions: matematicas },
+  {
+    key: 'matematicas-experimental',
+    name: 'Matemáticas experimental',
+    icon: '🧮',
+    count: matematicasExperimental.length,
+    questions: matematicasExperimental,
+  },
   { key: 'escrita', name: 'Competencia escrita', icon: '✏️', count: competenciaEscrita.length, questions: competenciaEscrita },
   { key: 'lectora', name: 'Competencia lectora', icon: '📖', count: competenciaLectora.length, questions: competenciaLectora },
   { key: 'ingles', name: 'Inglés (Reading)', icon: '🌎', count: readingComprehension.length, questions: readingComprehension },
